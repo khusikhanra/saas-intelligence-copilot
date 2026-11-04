@@ -1,0 +1,11 @@
+# Pinned to the versions this project was developed and tested against (Python 3.12).
+duckdb==1.5.6
+streamlit==1.65.0
+plotly==7.1.0
+pandas==3.0.2
+numpy==2.4.4
+scipy==1.17.1
+sqlglot==30.21.0
+openai==3.26.1
+python-dotenv==1.2.2
+pytest==9.1.1
