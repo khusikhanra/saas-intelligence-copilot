@@ -1,0 +1,26 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+.streamlit/secrets.toml
+
+# data (see README: download from Kaggle; licence not confirmed for redistribution)
+data/raw/
+data/processed/*
+!data/processed/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.coverage
+
+# misc
+.DS_Store
+*.log
+*.building
+*.wal
